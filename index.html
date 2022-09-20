@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Gestoria Giardina</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+</head>
+<body>
+	<div class="hero" id="hero">
+		<h1></h1>
+		<p></p>
+	</div>
+
+	<nav id="menu">
+		<a href="#1">Asesoramiento</a>
+		<a href="#2">Transferencias</a>
+		<a href="#3">Tramites varios</a>
+		<a href="#4">Contacto</a>
+		<a href="#5">Furmulario de conctacto</a>
+		<span class="indicador" id="indicador"></span>
+	</nav>
+
+	<div class="secciones">
+		<div class="seccion" id="1">
+			<div class="card">
+				<h1>Asesoramiento</h1>
+				<video class="img" autoplay controls muted loop>
+					<source src="video/video 1.mp4" type="video/mp4" />
+				</video>
+				<p>
+					<ul>
+						<li>Servicio integral de gestión y asesoramiento de documentación del automotor.</li>
+						<li>Trámites en todo el país</li>
+						<li>Patentamientos de 0KM</li>
+						<li>Transferencias por compra - venta, sucesiones o subastas</li>
+						<li>Bajas por robo, siniestro o desarme</li>
+						<li>Denuncia de venta</li>
+						<li>Informes preventivos: antes de comprar o vender un automotor usado es muy importante asesorarse y contar con informes preventivos con respecto a la situación jurídica del automotor, deuda de infracciones&nbsp; o patentes.</li>
+						</ul>
+				</p>
+			</div>
+		</div>
+
+		<div class="seccion" id="2">
+			<div class="card">
+				<h1>Transferencias</h1>
+				<video class="img" autoplay controls muted loop>
+					<source src="video/video 2.mp4" type="video/mp4" />
+				</video>
+				<p> </p>
+			</div>
+		</div>
+
+		<div class="seccion" id="3">
+			<div class="card">
+				<h1>Tramites varios</h1>
+				<img class="img2" src="img/11.jpg" alt="">
+				<h2 class="contenedor-texto" >Trae tus consultas, <br> hacemos:  <span class="typed"> </span></h2>
+			</div>
+		</div>
+
+		<div class="seccion" id="4">
+			<div class="card">
+				<h1>Contacto</h1>
+				<iframe class="img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1755.8980044686962!2d-65.26743031873706!3d-26.81390212472887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab390f30e72c2b29!2sGestor%C3%ADa%20del%20Automotor%20Giardina!5e0!3m2!1ses-419!2sar!4v1662905170751!5m2!1ses-419!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+				<div>
+					<br>
+					<p><b>Direccion:</b>  Pedro de villalba al 200 - Barrio Procrear Mza R Casa 22 - Yerba buena, Tucumán, Argentina</p>
+					<p><b>Telefono:</b>  <a href="https://wa.me/+543815764218" target="_blank">381 576 4218</a> <img class="logo" src="	https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg" width="40px" height="40px"></p>
+					<p> <b>Email:</b>  <a href="mailto:gesgiar@gmail.com?Subject=Consulta">gesgiar@gmail.com</a><img src="https://img1.freepng.es/20171220/tte/gmail-logo-png-5a3ab00442e330.684963621513795588274.jpg" width="40" height="40"></p>
+			</div>
+		</div>
+
+		<div class="seccion" id="5">
+			<div class="card">
+				<h1>Formulario de contacto / consultas</h1>
+					<br></br>
+					<form action="" class="formulario" id="formulario">		
+						<!-- Grupo: Nombre -->
+						<div class="formulario__grupo" id="grupo__nombre">
+							<label for="nombre" class="formulario__label">Nombre</label>
+							<div class="formulario__grupo-input">
+								<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John Doe">
+								<i class="formulario__validacion-estado fas fa-times-circle"></i>
+							</div>
+							<p class="formulario__input-error">El nombre solo puede contener letras.</p>
+						</div>
+			
+						<!-- Grupo: Correo Electronico -->
+						<div class="formulario__grupo" id="grupo__correo">
+							<label for="correo" class="formulario__label">Correo Electrónico</label>
+							<div class="formulario__grupo-input">
+								<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+								<i class="formulario__validacion-estado fas fa-times-circle"></i>
+							</div>
+							<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+						</div>
+			
+						<!-- Grupo: Teléfono -->
+						<div class="formulario__grupo" id="grupo__telefono">
+							<label for="telefono" class="formulario__label">Teléfono</label>
+							<div class="formulario__grupo-input">
+								<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+								<i class="formulario__validacion-estado fas fa-times-circle"></i>
+							</div>
+							<p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+						</div>
+			
+						<!-- Grupo: Dominio -->
+						<div class="formulario__grupo" id="grupo__dominio">
+							<label for="dominio" class="formulario__label">Dominio</label>
+							<div class="formulario__grupo-input">
+								<input type="text" class="formulario__input" name="dominio" id="dominio" placeholder=" AA 000 AA">
+								<i class="formulario__validacion-estado fas fa-times-circle"></i>
+							</div>
+							<p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+						</div>
+			
+						<!-- Grupo: Consulta -->
+						<div class="formulario__grupo" id="grupo__consulta">
+							<label for="consulta" class="formulario__label">Consulta</label>
+							<div class="formulario__grupo-input">
+								<textarea type=""  class="formulario__input" name="consulta" id="consulta" placeholder=" Escriba aqui su consulta"></textarea>
+							</div>
+						</div>
+			
+						<div class="formulario__mensaje" id="formulario__mensaje">
+							<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+						</div>
+			
+						<div class="formulario__grupo formulario__grupo-btn-enviar">
+							<button type="submit" class="formulario__btn">Enviar</button>
+							<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+						</div>
+					</form>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<script src="app.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
