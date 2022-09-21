@@ -141,8 +141,8 @@ formulario.addEventListener('submit', async(e) => {
 const typed = new Typed('.typed', {
 	strings: [
 		'<i class="tramite">Denuncia de ventas</i>',
-		'<i class="tramite">Compra y posesion</i>',
-		'<i class="tramite">Duplicado de docuemntacion</i>',
+		'<i class="tramite">Compra y posesión</i>',
+		'<i class="tramite"> Tramites por extravío de documentacion</i>',
 		'<i class="tramite">Autorizados a conducir</i>'
 	],
 
